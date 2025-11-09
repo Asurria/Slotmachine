@@ -1,0 +1,59 @@
+{
+  "__comment": "Modèle arcade PokéSlot généré par Copilot. Personnalise les textures pour un rendu optimal.",
+  "elements": [
+    {
+      "from": [0, 0, 0], "to": [16, 12, 16],
+      "faces": {
+        "north": {"texture": "#front", "uv": [0, 0, 16, 12]},
+        "south": {"texture": "#back", "uv": [0, 0, 16, 12]},
+        "east": {"texture": "#side", "uv": [0, 0, 16, 12]},
+        "west": {"texture": "#side", "uv": [0, 0, 16, 12]},
+        "up": {"texture": "#top", "uv": [0, 0, 16, 16]},
+        "down": {"texture": "#base", "uv": [0, 0, 16, 16]}
+      }
+    },
+    {
+      "from": [2, 12, 2], "to": [14, 15, 14],
+      "faces": {
+        "north": {"texture": "#screen", "uv": [0, 0, 12, 3]},
+        "south": {"texture": "#screen", "uv": [0, 0, 12, 3]},
+        "east": {"texture": "#screen", "uv": [0, 0, 12, 3]},
+        "west": {"texture": "#screen", "uv": [0, 0, 12, 3]},
+        "up": {"texture": "#top", "uv": [2, 2, 14, 14]},
+        "down": {"texture": "#base", "uv": [2, 2, 14, 14]}
+      }
+    },
+    {
+      "from": [4, 15, 4], "to": [12, 16, 12],
+      "faces": {
+        "north": {"texture": "#panel", "uv": [0, 0, 8, 1]},
+        "south": {"texture": "#panel", "uv": [0, 0, 8, 1]},
+        "east": {"texture": "#panel", "uv": [0, 0, 8, 1]},
+        "west": {"texture": "#panel", "uv": [0, 0, 8, 1]},
+        "up": {"texture": "#top", "uv": [4, 4, 12, 12]},
+        "down": {"texture": "#base", "uv": [4, 4, 12, 12]}
+      }
+    },
+    {
+      "from": [6, 0, 1], "to": [10, 2, 3],
+      "faces": {
+        "north": {"texture": "#button", "uv": [0, 0, 4, 2]},
+        "south": {"texture": "#button", "uv": [0, 0, 4, 2]},
+        "east": {"texture": "#button", "uv": [0, 0, 2, 2]},
+        "west": {"texture": "#button", "uv": [0, 0, 2, 2]},
+        "up": {"texture": "#button", "uv": [0, 0, 4, 2]},
+        "down": {"texture": "#base", "uv": [6, 1, 10, 3]}
+      }
+    }
+  ],
+  "textures": {
+    "front": "examplemod:block/pokeslot_machine_front",
+    "back": "examplemod:block/pokeslot_machine_back",
+    "side": "examplemod:block/pokeslot_machine_side",
+    "top": "examplemod:block/pokeslot_machine_top",
+    "base": "examplemod:block/pokeslot_machine_base",
+    "screen": "examplemod:block/pokeslot_machine_screen",
+    "panel": "examplemod:block/pokeslot_machine_panel",
+    "button": "examplemod:block/pokeslot_machine_button"
+  }
+}
